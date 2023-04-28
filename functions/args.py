@@ -35,4 +35,4 @@ print(result)
 def concatenate_kwargs(**kids):
     return "".join(kids.values())
 Output = concatenate_kwargs()
-print(result) 
+print(Output) 

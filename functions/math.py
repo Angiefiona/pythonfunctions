@@ -3,8 +3,9 @@ def add (a,b):
     return answer
 
 def subtract(m,n):
-    answer = m-n
-    return answer
+
+    print(m-n) 
+    subtract(8,4)
 
 def divide(y,z):
     answer = y/z
