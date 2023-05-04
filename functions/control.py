@@ -24,9 +24,9 @@ def divisible_by_five():
    y=range(30)
    for i in y:
       if i%5 ==0:
-         print(f"{i}is divisible by 5")
+         print(f"{i} is divisible by 5")
       else:
-         print(f"{i}is not divisible by 5")
+         print(f"{i} is not divisible by 5")
 
 
 def multiple_comparison():
