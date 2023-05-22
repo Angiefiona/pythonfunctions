@@ -107,5 +107,5 @@ class Account:
             account.deposit(amount)
         else:
             return "Insufficient funds for transfer"
-        return "Transfer successful"
+        return "successful transfer"
     print(f"You've transfered {deposit} and you have {Account.check_balance} as your balance")
