@@ -30,9 +30,30 @@ class Student:
     def show_initials(self):
         print(f"{self.first_name[0]}.{self.last_name[0]}")
 
+# we use self. when referring to class attributes
 
- 
 
-        
-
-          
+class Car:
+    def __init__(self, make, model, color, capacity):
+        self.make = make
+        self.model = model
+        self.color = color
+        self.capacity = capacity
+    
+    def carry(self, people):
+        if people <= self.capacity:
+            print(f"Carrying {people} passengers")
+        else:
+            over_capacity = people - self.capacity
+            print(f"Over capacity by {over_capacity} passengers")
+    
+    def identity(self):
+        print(f"I am a {self.color} {self.make} {self.model}")
+    
+    def calculateParkingFees(self, hours):
+        return hours * 20
+my_car = Car("Toyota", "Camry", "silver", 5)
+my_car.carry(4)  # prints "Carrying 4 passengers"
+my_car.identity()  # prints "I am a silver Toyota Camry"
+fees = my_car.calculateParkingFees(3)
+print(fees)  # prints 60

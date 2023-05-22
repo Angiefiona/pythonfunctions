@@ -7,4 +7,5 @@ class Fruit:
         self.texture = texture
     def taste_flavour(self):
         return f"Does orange juice contain {self.flavour} flavour?"
-        
+# methods/behaviours
+# attributes - fruit - taste, shape, texture, quantity

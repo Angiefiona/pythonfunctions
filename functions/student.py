@@ -2,3 +2,5 @@ def year_of_birth(name,age):
     year = 2023 -age
     print(f"Hello {name} you were born in {year}")
 
+name = "my name is sheila lekishon"
+'''my name is sheila'''

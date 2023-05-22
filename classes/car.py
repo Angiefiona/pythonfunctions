@@ -6,4 +6,5 @@ class Car:
         self.model = model
         self.fuel_efficiency = fuel_efficiency
     def check_model(self):
-        return f"I am suprised that Camaro is a car brand for {self.make}"
+        return f"I am suprised that Camaro is a car brand for {self.make}"  
+
